@@ -1,0 +1,73 @@
+body{
+    background-image: url("images/Mario\ Live.gif");
+    /* background-image: url("images/photo-1619410283995-43d9134e7656.jpg"); */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin: 0px;
+    color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fullscreen{
+    background-color: rgba(27, 27, 27, 0.767);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: none;
+}
+
+#my-pic{
+    padding: 20px;
+    text-align: center;
+}
+
+#my-pic img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+#bio-card{
+    padding: 10px 0 30px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#bio{
+    color: white;
+    background-color: rgba(94, 18, 62, 0.774);
+    padding: 20px 0px;
+    border-radius: 10px;
+    width: 60%;
+}
+
+#carousel{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#site-button{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#site-button button{
+    border: none;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer {
+    flex: 0 0 auto;
+    color: white;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
